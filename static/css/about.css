@@ -1,0 +1,28 @@
+
+.item-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+    /* color: white; */
+}
+#intro{
+    width: 100%;
+}
+
+.text2{
+    padding: 1rem;
+    margin: 1rem;
+    width: 600px;
+    background-color: rgba(247, 248, 247, 0.578);
+    /* border: 2px solid red; */
+    border-radius: 1rem;
+}
+
+.second-box{
+    display: flex;
+    width: 100%;
+
+}

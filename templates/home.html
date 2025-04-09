@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - Smart Crop Selector{% endblock %}
+
+{% block content %}
+
+
+<div class="bg-img">
+    <img src="{{url_for('static', filename='img/a.jpg')}}" alt="">
+</div>
+
+<div class="container">
+    <div class="main-box">
+        <div class="box">
+            <p>PREDICTION <br> OF RIGHT <br> CROP</p>
+            <div class="btn"> <a href="{{url_for('predictpage')}}">Click</a></div>
+        </div>
+        <div class="box">
+            <p>FIND RIGHT <br> SEEDS OF A <br> CROP</p>
+            <div class="btn"> <a href="{{ url_for('findseeds') }}">Click</a></div>
+        </div>
+        <div class="box">
+            <p>GET DETAILS <br> OF YOUR <br>CROP</p>
+            <div class="btn"> <a href="{{ url_for('getdetails') }}">Click</a></div>
+        </div>
+    </div>
+</div>
+{% endblock %}
