@@ -64,16 +64,28 @@
 ---
 
 ### Prerequisites
-- Python 3.x installed on your machine.
+- Python 3.10 installed on your machine.
 - A modern web browser for the frontend.
 - Required API keys:
   - **OpenWeatherMap API Key:**
   - **JSONBin.io API Key:**
-  
-
-  - **json data** Required json data given in a separate dir "jsonData" store this in your jsonBin.io
-    account in two separate bin and copy all required api and link. (see required configuration variables in config.py file)
 
   - **.env** Create a .env file in the root directory of your project. Store the     
     configuration variables inside the .env file.
+
+  - **Below is the format you need to store in the .env directory,with required data**
+
+      JSONBIN_BIN_ID= "put your own"
+      JSONBIN_API_KEY= "put your own"
+      GET_DETAILS_URL= "put your own"
+      FIND_SEEDS_URL= "put your own"
+      
+  
+  - **json data** Required json data given in a separate dir "jsonData" store this in your jsonBin.io
+    account in two separate bin and copy all required api and link. (see required configuration variables in config.py file)
+
+
+
+# OpenWeather API Key
+JS_API_KEY= "put your own"
 
